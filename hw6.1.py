@@ -4,7 +4,6 @@ class Animal:
     def __init__(self, name):
         self.name = name
     def eat(self, food):
-        Plant = food
         if food.edible:
             print(f'{self.name} съел {food.name}')
             Animal.fed = True
